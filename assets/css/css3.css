@@ -1,0 +1,32 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&display=swap');
+
+* {
+	box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --primary-color: rgba(146, 163, 234, 0.311);
+    --primary-color2: rgba(142, 182, 235, 0.2);
+    --overlay-color: rgba(24, 27, 51, 0.75);
+    --menu-speed: 0.75s;
+}
+
+body {
+    background: url('../images/pexels-johannes-plenio-1103970-edit5.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: var(--primary-color);
+    font-family: Merriweather, Trebuchet MS, serif;
+}
+header {
+    font-family: Montserrat, Trebuchet MS, serif; 
+}
+.card {
+    height: 30vh;
+}
